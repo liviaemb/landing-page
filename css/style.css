@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear{
+    clear:both;
+}
+
+.center{
+    max-width: 1200px;
+    width: 100%;
+    margin:0 auto;
+}
+
+.header{
+    width: 100%;
+    padding: 0.2%;
+    height:27%;
+    background-color: white;
+} 
+.header img{
+    max-width: 140px;
+    max-height: 27%;
+    width: auto;
+    height: auto;
+    margin: 16px;
+}
+
+.header h2{
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+   color: black;
+   font-size: 80px;
+   margin-top: -120px;
+   text-align: center;   
+  
+}
+
+.container-banner{
+    width:100%;
+    padding:10%;
+    height:600px;
+    background-image: url('https://prodinstitucional.blob.core.windows.net/prbinstitucionalfiles/2020-10/BlackFriday.jpg');
+    background-size:cover;
+    background-position:top;
+}
+
+.container-banner{
+    height: 100%;
+}
+
+.form{
+    padding: 20px;
+    width: 300px;
+    height:400px;
+    float: right;
+    position: relative;
+    top: -500px;
+    background-color: white;
+    border-width: 12px;
+    border-color: green;
+    border-style: solid;
+    background-clip: padding-box;
+
+}
+
+.form h2{
+    font-weight: normal;
+    color: black;
+    font-size: 21px;
+
+}
+
+.nome{
+    margin-top: 20px;
+}
+
+.nome span{
+    display: inline-block;
+    width: 100%;
+    color: black;
+    font-size: 17px;
+}
+
+.form p{
+    display: inline-block;
+    width: 100%;
+    color:black;
+    font-size: 17px;
+    margin: 20px 0;
+
+}
+
+.nome input[type=text]{
+    margin-top: 8px;
+    width: 240px;
+    height: 55px;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid black;
+
+}
+
+.nome input[type=text]:focus{
+    outline:0;
+}
+
+.email{
+    margin-top: 20px;
+}
+
+.email span{
+    display: inline-block;
+    width: 100%;
+    color: black;
+    font-size: 17px;
+}
+
+.form p{
+    display: inline-block;
+    width: 100%;
+    color:black;
+    font-size: 17px;
+    margin: 20px 0;
+
+}
+
+.email input[type=text]{
+    margin-top: 8px;
+    width: 240px;
+    height: 55px;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid black;
+
+}
+
+.email input[type=text]:focus{
+    outline:0;
+}
+
+.form input-submit-container{
+    text-align: center;
+}
+
+.form input[type=submit]{
+    color:white;
+    font-size: 25px;
+    width: 240px;
+    height: 40px;
+    display: inline-block;
+    background-color: black;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    cursor: pointer;
+    border-bottom: 5px solid white;
+
+}
+
+.form input[type-submit]:hover{
+    background-color: green;
+}
+
+.container-list{
+    font-size: 28px;
+    padding: 30px;
+    margin: -150px;
+    float: left;
+    width:800px;
+    height:200px;
+    text-align: center;
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+    margin-top: 20px;
+    color: white;
+}
+
+.container2{
+    margin-top: -400px;
+    padding: 20px 2%;
+    background-color: black;
+    text-align: center;
+}
+
+.container2 h2{
+    font-weight: normal;
+    color: green;
+    text-align: center;
+}
+
+.container2 p{
+    width: 100%;
+    max-width: 768px;
+    margin: 15px 0;
+    display: inline-block;
+    text-align: cent;
+    color: white;
+
+}
+.container-single img{
+    max-width: 100px;
+    max-height: 30%;
+    position:center;
+    top: 90px;
+    left: 50%;
+    margin-right: -50px;
+    width: auto;
+    height: auto;
+    background-image: url('images\pc.png');
+    background-size: 100% 100%;
+
+}
+.container-single img{
+    max-width: 100px;
+    max-height: 30%;
+    position:center;
+    top: 90px;
+    left: 50%;
+    margin-right: -50px;
+    width: auto;
+    height: auto;
+    background-image: url('images\design.png');
+    background-size: 100% 100%;
+
+}
+
+.container-single img{
+    max-width: 100px;
+    max-height: 30%;
+    position:center;
+    top: 90px;
+    left: 50%;
+    margin-right: -50px;
+    width: auto;
+    height: auto;
+    background-image: url('images\marketing.png');
+    background-size: 100% 100%;
+
+}
+
+.container-single img{
+    max-width: 100px;
+    max-height: 30%;
+    position:center;
+    top: 90px;
+    left: 50%;
+    margin-right: -50px;
+    width: auto;
+    height: auto;
+    background-image: url('images\vendas.png');
+    background-size: 100% 100%;
+
+}
+
+
+.section1{
+
+    padding:140px;
+
+}
+
+.section1 h2{
+    display: inline-block;
+    font-size: 40px;
+    width:100%;
+    text-align: center;
+    color: green;
+
+}
+
+.container-section{
+    margin-top: 40px;
+    text-align: center;
+}
+.container-single{
+    float: left;
+    width: 25%;
+    padding:30px;
+}
+.container-single :last-child{
+    margin-right: 0;
+}
+.container-single p{
+    display: inline-block;
+    text-align: justify;
+    padding:10px;
+
+}
+ .footer{
+     border-top: 2px solid black;
+     padding:20px;
+     text-align: center;
+     color: green;
+ }
+
+ .footer p{
+     margin-top: 8px;
+ }
+  @media screen and (max-width: 1024px){
+    .header{
+        height: auto;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+
+    }
+    .header img{
+        margin:0;
+    }
+    .container-banner{
+        width: 100%;
+        padding:40 2%;
+        height: auto;
+        text-align: center;
+    }
+    .form{
+        max-width: 400px;
+        padding: 10px;
+        width: 60%;
+        height: 100%;
+        float: right;
+        top: 0px;
+    }
+    .container-list{
+        padding: 0px;
+        width: 100%;
+        float: none;
+        display: inline-block;
+        max-width: 500px;
+        height: auto;
+    }
+    .input-container input[type=text]{
+        max-width: 280px;
+        height: 56px;
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 760px){
+      .container-2{
+          padding-left: 4%;
+          padding-right: 4%;
+      }
+      .container-list{
+          margin-top: 0;
+          float: none;
+          display: inline-block;
+          width: 20%;
+          margin-top: 30px;
+      }
+      .container-single{
+          float: none;
+          display: inline-block;
+          width: 100%;
+          max-width: 600px;
+          padding: 30px;
+
+      }
+  }
